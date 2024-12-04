@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+
+    <!-- daisy ui and tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style -->
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f9b818b75b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tailwind custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-manrope">
+    <header class="container mx-auto">
+      <div class="hero">
+        <div
+          class="mt-10 hero-content flex-col md:flex-row lg:flex-row flex-col-reverse gap-40"
+        >
+          <div>
+            <h1 class="text-7xl font-bold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button
+              class="rounded-lg bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-white font-bold text-xl px-6 py-4 flex items-center gap-5"
+            >
+              Explore More
+              <img src="./resources/images/arrow.png" alt="" />
+            </button>
+          </div>
+          <div>
+            <img src="./resources/images/banner.png" class="max-w-sm" />
+
+            <!-- rating badge -->
+            <div
+              class="-mt-16 flex items-center gap-5 drop-shadow-xl p-5 w-60 bg-[#1D232A] rounded-md"
+            >
+              <img class="max-w-12" src="./resources/images/star.png" alt="" />
+              <div>
+                <h3 class="text-3xl">5.00</h3>
+                <p>Trust Pilot Rating</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
