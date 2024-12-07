@@ -48,7 +48,7 @@
     </script>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto">
+    <header class="container mx-auto lg:mx-60">
       <div class="hero">
         <div
           class="mt-10 hero-content flex-col md:flex-row lg:flex-row flex-col-reverse gap-10 md:gap-40 lg:gap-40"
@@ -88,7 +88,7 @@
       </div>
     </header>
 
-    <main class="container mx-auto mx-60">
+    <main class="container mx-auto lg:mx-60">
       <!-- featured section -->
       <section class="text-center my-24 mx-5">
         <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
@@ -155,7 +155,7 @@
 
       <!-- great tea section  -->
       <section class="my-24 mx-5 flex flex-col lg:flex-row gap-12">
-        <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
+        <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:flex-1">
           <div
             class="h-36 bg-gradient-to-r from-[#fff2eb34] to-[#ff88383b] rounded-xl"
           ></div>
@@ -173,7 +173,7 @@
             class="h-36 bg-gradient-to-r from-[#d9d9d934] to-[#ffffff33] rounded-xl"
           ></div>
         </div>
-        <div class="flex flex-col gap-8 flex-1">
+        <div class="flex flex-col gap-8 lg:flex-1">
           <h3 class="text-5xl font-extrabold">Great Tea, Freshly Presented</h3>
           <p class="text-lg">
             The meaning of gong cha is chanese is to provide the best tea to
@@ -183,15 +183,55 @@
             unique customized service orginated from Taiwan.
           </p>
           <h5 class="text-2xl font-extrabold">Unique Taste</h5>
-          <p class="text-lg pr-80">
+          <p class="text-lg lg:pr-80">
             A Unique and different style from other teapots gives a luxurious
             and minimalist impression
           </p>
           <h5 class="text-2xl font-extrabold">Premium Quality</h5>
-          <p class="text-lg pr-80">
+          <p class="text-lg lg:pr-80">
             Premium Quality that makes tea more elegant and more durable when
             you use it.
           </p>
+        </div>
+      </section>
+
+      <!-- super client -->
+      <section
+        class="my-24 mx-5 bg-gradient-to-r to-[#FF0000] from-[#FF8938] p-20 rounded-xl flex flex-col lg:flex-row gap-12"
+      >
+        <div class="space-y-5">
+          <h2 class="text-5xl font-extrabold text-white leading-normal">
+            Meet Our Super <br />
+            Clients
+          </h2>
+          <p class="text-white font-medium text-[1rem]">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <div class="bg-white inline-block px-5 py-4 rounded-lg">
+            <button
+              class="text-4xl font-bold bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-transparent bg-clip-text text-xl font-bold"
+            >
+              Show All
+            </button>
+          </div>
+        </div>
+
+        <!-- review -->
+        <div class="p-10 rounded-lg bg-white relative">
+          <img
+            class="absolute -top-5 -left-5"
+            src="./resources/images/client.png"
+            alt=""
+          />
+          <p class="text-[#777777]">
+            We are providing the best and suitable home insurance services for
+            the people who are interested to treatment
+          </p>
+          <h4 class="font-bold mt-5 text-[#1C1C1C]">Ilham Yuda</h4>
+          <p class="font-medium text-[#5D5A6F]">Businessman</p>
         </div>
       </section>
     </main>
